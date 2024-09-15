@@ -1,0 +1,38 @@
+@keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px;
+  }
+}
+@-webkit-keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px;
+  }
+}
+
+.effect-sparkle {
+  background-image: url("./sparkle1.png"), url("./sparkle2.png");
+  -webkit-animation: sparkle 60s linear infinite;
+  animation: sparkle 60s linear infinite;
+}
+@keyframes glass {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, 400px 400px;
+  }
+}
+@-webkit-keyframes glass {
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+  }
+  100% {
+    background-position: 500px 1000px, -400px -400px;
+  }
+}
