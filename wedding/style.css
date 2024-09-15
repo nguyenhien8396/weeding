@@ -7058,15 +7058,6 @@ a.ui-button:active, .ui-button:active,
   }
 }
 
-.static-hero-s9 .hero-items .owl-stage {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .static-hero-s9 .hero-items .hero-item .hero-item-img img {
   max-height: 680px;
 }
