@@ -1,138 +1,4 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
-Theme Name:     Habibi - Wedding & Wedding Planner HTML5 Template
-Version:        1.0.0
--------------------------------------------------------------------*/
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
 
-1. General
-	1.1 Theme Reset Style
-	1.2 Global Elements
-
-2. header
-	2.1 topbar
-	2.2 navigation
-
-3. content
-	3.1 wpo-hero-slider
-	3.2 wpo-couple-section
-	3.3 wpo-story-section
-	3.4 wpo-portfolio-section
-	3.5 wpo-contact-section
-	3.6 wpo-event-section
-	3.7 wpo-blog-section
-
-4. wpo-footer
-
-5. Home-style-2
-	5.1 wpo-couple-section-s2
-	5.2 wpo-story-section-s2
-	5.3 wpo-team-section
-	5.4 wpo-team-section
-
-6. Home-style-3
-	6.1 wpo-wedding-date
-	6.2 wpo-couple-section-s3
-	6.3 wpo-video-section
-	6.4 wpo-story-section-s3
-	6.5 wpo-contact-section-s3
-	6.6 wpo-event-section-s2
-
-7. Home-style-4
-	7.1 wpo-partners-section
-	7.2 wpo-couple-section-s4
-	7.3 wpo-story-section-s4
-	7.4 wpo-portfolio-section-s2
-	7.5 wpo-team-section
-	7.6 wpo-contact-section-s4
-	7.7 wpo-event-section-s3
-
-8. Home-style-5
-	8.1 wpo-wedding-countdown
-	8.2 wpo-couple-section-s5
-	8.3 wpo-story-section-s5
-	8.4 wpo-contact-section-s5
-	8.5 wpo-event-section-s4
-
-
-9. Home-style-6
-	9.1 wpo-wedding-countdown-s2
-	9.2 wpo-couple-section-s6
-	9.3 wpo-story-section-s6
-
-10. Home-style-7
-	10.1 wpo-Service-section
-	10.2 wpo-portfolio-section-s3
-	10.3 wpo-fun-fact-section
-	10.4 wpo-testimonial-section
-	10.5 wpo-contact-section-s6
-	10.6 wpo-product-section
-	10.7 wpo-pricing-section
-
-11. Home-style-8
-	11.1 wpo-about-section
-	11.2 wpo-service-section-s2
-	11.3 wpo-testimonial-section-s2
-	11.4 wpo-contact-section-s6
-	11.5 wpo-portfolio-section-s4
-
-12. Home-style-9
-	12.1 wpo-about-section-s2
-	12.2 wpo-video-section-s2
-	12.3 wpo-service-section-s3
-	12.4 wpo-testimonial-section-s3
-	12.5 wpo-offer-section
-	12.6 wpo-contact-section-s7
-
-13. wpo-invitation-area
-
-14. wpo-shop-home
-    14.1 wpo-about-section
-	14.2 wpo-offer-section-s2
-
-15. shop-home-2
-	15.1 wpo-category-section
-	15.2 wpo-offer-section-s3
-
-16. shop-home-3
-	16.1 wpo-category-section-s2
-	16.2 wpo-order-section
-
-17. rtl-page
-
-18. wpo-service-single
-
-19. coming-soon-section
-
-20. wpo-cart-page-style
-
-21. wpo-checkout-page-style
-
-22. wpo-shop-page
-
-23. wpo-shop-single-page
-
-24. wpo-team-single
-
-25. wpo-portfolio-single-section
-
-26. wpo-blog-pg-section
-
-27. wpo-blog-single-section
-
-28. wpo-contact-pg-section
-
-29. error-404-section
-
-----------------------------------------------------------------*/
-/*------------------------------------------------------------------
-1. General
-----------------------------------------------------------------*/
-/*---------------------------
-	Fonts
-----------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&family=Sail&display=swap");
 /* 1.1 Theme Reset Style */
 html {
@@ -145,7 +11,7 @@ html {
 
 body {
   font-family: "Jost", sans-serif;
-  color: #5C5C5C;
+  color: #367d1a;
   background-color: #fff;
   font-size: 18px;
   font-size: 1.2rem;
@@ -160,7 +26,7 @@ body {
 
 p {
   font-size: 18px;
-  color: #5C5C5C;
+  color: #367d1a;
   line-height: 1.8em;
 }
 
@@ -170,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #101010;
+  color: #367d1a;
   font-family: "TKSouthMongolia";
   font-weight: 400;
 }
@@ -762,7 +628,7 @@ a.ui-button:active, .ui-button:active,
 
 .theme-btn-s2 {
   background: #E5D1C7;
-  color: #101010;
+  color: #367d1a;
   display: inline-block;
   font-weight: 500;
   padding: 15px 45px;
@@ -788,7 +654,7 @@ a.ui-button:active, .ui-button:active,
 
 .theme-btn-s2:hover, .theme-btn-s2:focus, .theme-btn-s2:active {
   background: #C8A898;
-  color: #101010;
+  color: #367d1a;
 }
 
 @media (max-width: 767px) {
@@ -826,7 +692,7 @@ a.ui-button:active, .ui-button:active,
 
 .view-cart-btn.s1 {
   background: rgba(101, 113, 80, 0.2);
-  color: #101010;
+  color: #367d1a;
 }
 
 .view-cart-btn.s1:hover {
@@ -969,7 +835,7 @@ a.ui-button:active, .ui-button:active,
   font-weight: 400;
   font-size: 45px;
   line-height: 57px;
-  color: #101010;
+  color: #367d1a;
   margin-bottom: 10px;
 }
 
@@ -989,7 +855,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-page-title .wpo-breadcumb-wrap ol li {
   display: inline-block;
   padding: 0px 15px;
-  color: #5C5C5C;
+  color: #367d1a;
   position: relative;
   font-size: 20px;
 }
@@ -1016,7 +882,7 @@ a.ui-button:active, .ui-button:active,
           transform: translateY(-50%);
   width: 5px;
   height: 5px;
-  background: #5C5C5C;
+  background: #367d1a;
   border-radius: 50%;
 }
 
@@ -1029,7 +895,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-page-title .wpo-breadcumb-wrap ol li a {
-  color: #5C5C5C;
+  color: #367d1a;
   font-size: 20px;
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -1261,7 +1127,7 @@ a.ui-button:active, .ui-button:active,
 .blog-sidebar .widget h3 {
   font-size: 23px;
   font-size: 1.53333rem;
-  color: #101010;
+  color: #367d1a;
   margin: 0 0 1.3em;
   position: relative;
   text-transform: capitalize;
@@ -1413,7 +1279,7 @@ a.ui-button:active, .ui-button:active,
   font-family: "Sail", cursive;
   font-size: 14px;
   font-size: 0.93333rem;
-  color: #101010;
+  color: #367d1a;
   text-decoration: underline;
 }
 
@@ -1525,7 +1391,7 @@ a.ui-button:active, .ui-button:active,
 
 .blog-sidebar .recent-post-widget .post h4 a {
   display: inline-block;
-  color: #101010;
+  color: #367d1a;
 }
 
 .blog-sidebar .recent-post-widget .post h4 a:hover {
@@ -1535,7 +1401,7 @@ a.ui-button:active, .ui-button:active,
 .blog-sidebar .recent-post-widget .post .details .date {
   font-size: 16px;
   font-size: 1.06667rem;
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .blog-sidebar .recent-post-widget .post .details .date i {
@@ -1581,7 +1447,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 1.06667rem;
   display: inline-block;
   padding: 5px 18px;
-  color: #101010;
+  color: #367d1a;
   background: #f9f7f6;
   border-radius: 5px;
   text-transform: capitalize;
@@ -1828,7 +1694,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-shop-sidebar .widget_product_categories .woocommerce-widget-layered-nav-list a,
 .wpo-shop-sidebar .woocommerce-widget-layered-nav .product-categories a,
 .wpo-shop-sidebar .woocommerce-widget-layered-nav .woocommerce-widget-layered-nav-list a {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-shop-sidebar .widget_product_categories .product-categories,
@@ -1908,7 +1774,7 @@ a.ui-button:active, .ui-button:active,
 .widget_best-seller .wpo-best-seller-item .wpo-best-seller-text h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #5C5C5C;
+  color: #367d1a;
   font-family: "Jost", sans-serif;
 }
 
@@ -1983,7 +1849,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 600;
-  color: #101010;
+  color: #367d1a;
   background: #f9f7f6;
   display: block;
 }
@@ -2497,7 +2363,7 @@ a.ui-button:active, .ui-button:active,
 
 .wpo-site-header .header-right .search-toggle-btn,
 .wpo-site-header .header-right .cart-toggle-btn {
-  color: #101010;
+  color: #367d1a;
   background: none;
 }
 
@@ -2529,7 +2395,7 @@ a.ui-button:active, .ui-button:active,
 .cart-search-contact .fi {
   font-size: 30px;
   font-size: 2rem;
-  color: #101010;
+  color: #367d1a;
 }
 
 .cart-search-contact > div {
@@ -2686,7 +2552,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 15px;
   font-size: 1rem;
   font-weight: 500;
-  color: #101010;
+  color: #367d1a;
   margin: 0;
   text-transform: uppercase;
 }
@@ -2732,7 +2598,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 1rem;
   font-weight: 600;
   text-align: left;
-  color: #101010;
+  color: #367d1a;
 }
 
 .mini-cart-content .mini-cart-item-des a:hover {
@@ -2791,7 +2657,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 600;
-  color: #101010;
+  color: #367d1a;
   display: block;
   margin-bottom: 30px;
   display: -webkit-box;
@@ -3009,7 +2875,7 @@ a.ui-button:active, .ui-button:active,
     font-size: 1.06667rem;
     display: inline-block;
     padding: 5px 0px;
-    color: #101010;
+    color: #367d1a;
     position: relative;
     overflow: hidden;
     -webkit-transition: all .5s;
@@ -3382,13 +3248,13 @@ a.ui-button:active, .ui-button:active,
 
 @media (min-width: 991px) {
   .wpo-header-style-2 #navbar > ul > li > a {
-    color: #101010;
+    color: #367d1a;
   }
 }
 
 .wpo-header-style-2 .header-right .cart-toggle-btn .fi,
 .wpo-header-style-2 .header-right .search-toggle-btn .fi {
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-header-style-3,
@@ -3450,7 +3316,7 @@ a.ui-button:active, .ui-button:active,
 @media (max-width: 991px) {
   .wpo-header-style-4 .header-right .cart-toggle-btn .fi,
   .wpo-header-style-4 .header-right .search-toggle-btn .fi {
-    color: #5C5C5C;
+    color: #367d1a;
   }
 }
 
@@ -3875,8 +3741,8 @@ a.ui-button:active, .ui-button:active,
 .static-hero-s10 .gradient-overlay,
 .wpo-hero-slider-s2 .gradient-overlay,
 .wpo-hero-slider-s3 .gradient-overlay {
-  background: -webkit-gradient(linear, left top, right top, color-stop(45%, #101010), color-stop(65%, transparent));
-  background: linear-gradient(left, #101010 45%, transparent 65%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(45%, #367d1a), color-stop(65%, transparent));
+  background: linear-gradient(left, #367d1a 45%, transparent 65%);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -4247,7 +4113,7 @@ a.ui-button:active, .ui-button:active,
 .static-hero-s3 .slide-title h2,
 .static-hero-s5 .slide-title h2,
 .static-hero-s10 .slide-title h2 {
-  color: #101010;
+  color: #367d1a;
   text-align: center;
   font-size: 90px;
   font-style: normal;
@@ -4398,7 +4264,7 @@ a.ui-button:active, .ui-button:active,
 .static-hero-s3 .slide-text p,
 .static-hero-s5 .slide-text p,
 .static-hero-s10 .slide-text p {
-  color: #5C5C5C;
+  color: #367d1a;
   margin: 0;
   font-size: 25px;
 }
@@ -5733,7 +5599,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #101010;
+  color: #367d1a;
   text-transform: capitalize;
 }
 
@@ -5764,7 +5630,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .static-hero-s4 .wpo-static-hero-inner .slide-text p {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 @media (max-width: 1800px) {
@@ -6494,7 +6360,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #101010;
+  color: #367d1a;
   text-transform: capitalize;
   font-family: "Jost", sans-serif;
   margin-bottom: 20px;
@@ -6530,7 +6396,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #5C5C5C;
+  color: #367d1a;
   margin-bottom: 0;
 }
 
@@ -7986,7 +7852,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  color: #5C5C5C;
+  color: #367d1a;
   margin-bottom: 0;
 }
 
@@ -8443,7 +8309,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-portfolio-section .grid .img-holder .hover-content i,
 .wpo-portfolio-section-s2 .grid .img-holder .hover-content i {
   
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-portfolio-section .grid .img-holder:before,
@@ -8739,7 +8605,7 @@ a.ui-button:active, .ui-button:active,
   margin-bottom: 20px;
   border: 0;
   border-bottom: 1px solid #D9D9D9;
-  color: #5C5C5C;
+  color: #367d1a;
   border-radius: 0;
   font-size: 18px;
 }
@@ -8778,7 +8644,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-webkit-input-placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-webkit-input-placeholder {
   /* Edge */
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area .form-control:-ms-input-placeholder,
@@ -8790,7 +8656,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control:-ms-input-placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-ms-input-placeholder,
@@ -8801,7 +8667,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-ms-input-placeholder,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-ms-input-placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-ms-input-placeholder {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::placeholder,
@@ -8812,7 +8678,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::placeholder,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::placeholder {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control,
@@ -8823,7 +8689,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control {
-  color: #5C5C5C;
+  color: #367d1a;
   -webkit-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
@@ -8841,7 +8707,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s6 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control option,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control option,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control option {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area .date .form-control,
@@ -9781,7 +9647,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-section .wpo-blog-item .wpo-blog-content ul li,
 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content ul li,
 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content ul li {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 @media (max-width: 1199px) {
@@ -9818,14 +9684,14 @@ a.ui-button:active, .ui-button:active,
   width: 6px;
   height: 6px;
   content: "";
-  background: #5C5C5C;
+  background: #367d1a;
   border-radius: 50%;
 }
 
 .wpo-blog-section .wpo-blog-item .wpo-blog-content ul li a,
 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content ul li a,
 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content ul li a {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-blog-section .wpo-blog-item .wpo-blog-content ul li a:hover,
@@ -9865,7 +9731,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a,
 .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-content h2 a,
 .wpo-blog-section-s3 .wpo-blog-item .wpo-blog-content h2 a {
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-blog-section .wpo-blog-item .wpo-blog-content h2 a:hover,
@@ -10775,7 +10641,7 @@ a.ui-button:active, .ui-button:active,
 
 .wpo-team-section .wpo-team-wrap .wpo-team-item .wpo-team-text h3 a,
 .wpo-team-section-s2 .wpo-team-wrap .wpo-team-item .wpo-team-text h3 a {
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-team-section .wpo-team-wrap .wpo-team-item .wpo-team-text h3 a:hover,
@@ -11173,7 +11039,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-hero-wedding-date #clock span {
-  color: #5C5C5C;
+  color: #367d1a;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -12115,7 +11981,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control {
-  color: #5C5C5C;
+  color: #367d1a;
   border-color: #D9D9D9;
 }
 
@@ -12149,7 +12015,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-webkit-input-placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control::-webkit-input-placeholder {
   /* Edge */
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control:-ms-input-placeholder,
@@ -12165,7 +12031,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control:-ms-input-placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-ms-input-placeholder,
@@ -12180,7 +12046,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control::-ms-input-placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::-ms-input-placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control::-ms-input-placeholder {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section-s3 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::placeholder,
@@ -12195,7 +12061,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control::placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area .form-control::placeholder,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control::placeholder {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 @media (max-width: 1199px) {
@@ -13173,7 +13039,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 40px;
   line-height: 49px;
   font-size: 2.66667rem;
-  color: #101010;
+  color: #367d1a;
   margin: 0 0 0.5em;
 }
 
@@ -14194,7 +14060,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  color: #101010;
+  color: #367d1a;
   font-family: "Sail", cursive;
 }
 
@@ -14363,7 +14229,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-portfolio-section-s3 .portfolio-grids .grid .portfolio-content h4 a {
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-portfolio-section-s3 .portfolio-grids .grid .portfolio-content h4 a:hover {
@@ -14530,7 +14396,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   margin: 0;
-  color: #5C5C5C;
+  color: #367d1a;
   font-family: "Jost", sans-serif;
   text-align: center;
 }
@@ -14779,7 +14645,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   margin-bottom: 30px;
-  color: #101010;
+  color: #367d1a;
 }
 
 @media (max-width: 1399px) {
@@ -15182,7 +15048,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-product-section .wpo-product-wrap .wpo-product-item .wpo-product-text h3 a {
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-product-section .wpo-product-wrap .wpo-product-item .wpo-product-text h3 a:hover {
@@ -15315,7 +15181,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   font-family: "Jost", sans-serif;
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 @media (max-width: 1199px) {
@@ -15727,7 +15593,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-service-section-s2 .wpo-service-wrap .wpo-service-item .wpo-service-text a:hover,
@@ -15882,7 +15748,7 @@ a.ui-button:active, .ui-button:active,
 
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control option,
 .wpo-contact-section-s8 .wpo-contact-section-wrapper .wpo-contact-form-area select.form-control option {
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-contact-section-s7 .wpo-contact-section-wrapper .wpo-contact-form-area .date .form-control,
@@ -17290,7 +17156,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 30px;
   line-height: 43px;
   margin-bottom: 30px;
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 @media (max-width: 991px) {
@@ -17335,7 +17201,7 @@ a.ui-button:active, .ui-button:active,
   line-height: 30px;
   margin-left: 0;
   float: none;
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 @media (max-width: 767px) {
@@ -17972,7 +17838,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #101010;
+  color: #367d1a;
 }
 
 @media (max-width: 1399px) {
@@ -18097,7 +17963,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-category-section-s2 .wpo-category-wrap .wpo-category-item .wpo-category-text a:hover {
@@ -18534,7 +18400,7 @@ a.ui-button:active, .ui-button:active,
 
 .accordion-button:not(.collapsed) {
   background-color: #fff;
-  color: #101010;
+  color: #367d1a;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -18722,7 +18588,7 @@ a.ui-button:active, .ui-button:active,
   height: 0px;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 20px solid #101010;
+  border-left: 20px solid #367d1a;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -18945,7 +18811,7 @@ a.ui-button:active, .ui-button:active,
   }
   .wpo-service-details-list {
     padding-bottom: 10px;
-    background: #101010;
+    background: #367d1a;
   }
 }
 
@@ -19023,7 +18889,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-service-sidebar .contact-widget {
-  background: #101010;
+  background: #367d1a;
   padding: 60px 15px;
   text-align: center;
   position: relative;
@@ -19246,7 +19112,7 @@ a.ui-button:active, .ui-button:active,
 
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock span,
 .wpo-coming-soon-area .coming-soon-section .wpo-wedding-date #clock3 span {
-  color: #5C5C5C;
+  color: #367d1a;
   font-size: 20px;
 }
 
@@ -20346,7 +20212,7 @@ a.ui-button:active, .ui-button:active,
 
 .wpo-shop-single-section .product-details .tg-btm p span {
   font-weight: 700;
-  color: #101010;
+  color: #367d1a;
   margin-right: 5px;
 }
 
@@ -20419,7 +20285,7 @@ a.ui-button:active, .ui-button:active,
   background-color: #fff;
   font-size: 18px;
   font-size: 1.2rem;
-  color: #5C5C5C;
+  color: #367d1a;
   border: 1px solid #e6e6e6;
 }
 
@@ -20502,7 +20368,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-shop-single-section .product-info .nav-tabs a {
   font-size: 15px;
   font-size: 1rem;
-  color: #5C5C5C;
+  color: #367d1a;
   border: 0;
   border-radius: 0;
   margin: 0;
@@ -21443,7 +21309,7 @@ a.ui-button:active, .ui-button:active,
   display: flex;
   padding: 15px 0;
   font-size: 16px;
-  color: #101010;
+  color: #367d1a;
   font-weight: 600;
   border-bottom: 1px solid #ebebeb;
   position: relative;
@@ -21456,7 +21322,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-portfolio-single-section .wpo-portfolio-single-content-des ul li span {
   -ms-flex-preferred-size: 70%;
       flex-basis: 70%;
-  color: #5C5C5C;
+  color: #367d1a;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -21505,7 +21371,7 @@ a.ui-button:active, .ui-button:active,
   display: -ms-flexbox;
   display: flex;
   padding: 20px;
-  color: #5C5C5C;
+  color: #367d1a;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -21664,7 +21530,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-blog-pg-section .post h3 a {
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-blog-pg-section .post h3 a:hover {
@@ -21684,7 +21550,7 @@ a.ui-button:active, .ui-button:active,
 
 .wpo-blog-pg-section .post a.read-more {
   text-decoration: underline;
-  color: #5C5C5C;
+  color: #367d1a;
   text-transform: capitalize;
   font-family: "Jost", sans-serif;
   font-size: 16px;
@@ -22130,7 +21996,7 @@ a.ui-button:active, .ui-button:active,
   border-bottom: 1px solid #F3ECE9;
   margin: 75px 0 0;
   padding-bottom: 30px;
-  color: #101010;
+  color: #367d1a;
 }
 
 @media (max-width: 767px) {
@@ -22175,7 +22041,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 .wpo-blog-single-section .tag-share .tag > span, .wpo-blog-single-section .tag-share-s2 .tag > span {
-  color: #101010;
+  color: #367d1a;
   font-weight: 500;
   display: inline-block;
   padding-right: 15px;
@@ -22196,7 +22062,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 1.06667rem;
   display: inline-block;
   padding: 5px 18px;
-  color: #101010;
+  color: #367d1a;
   background: #f9f7f6;
   border-radius: 5px;
   font-weight: 500;
@@ -22227,7 +22093,7 @@ a.ui-button:active, .ui-button:active,
   text-transform: capitalize;
   background: none;
   text-decoration: underline;
-  color: #5C5C5C;
+  color: #367d1a;
 }
 
 .wpo-blog-single-section .author-box {
@@ -22271,7 +22137,7 @@ a.ui-button:active, .ui-button:active,
   font-weight: 600;
   display: inline-block;
   margin-bottom: 10px;
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-blog-single-section .author-box .social-link {
@@ -22288,7 +22154,7 @@ a.ui-button:active, .ui-button:active,
   display: block;
   font-size: 13px;
   font-size: 0.86667rem;
-  color: #101010;
+  color: #367d1a;
 }
 
 .wpo-blog-single-section .author-box .social-link a:hover {
@@ -22407,7 +22273,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-single-section .more-posts .post-control-link {
   font-size: 14px;
   font-size: 0.93333rem;
-  color: #5C5C5C;
+  color: #367d1a;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
@@ -22416,7 +22282,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-single-section .more-posts .post-name {
   font-size: 18px;
   font-size: 1.2rem;
-  color: #101010;
+  color: #367d1a;
   margin: 0.7em 0 0;
 }
 
@@ -22515,7 +22381,7 @@ a.ui-button:active, .ui-button:active,
   font-family: "Jost", sans-serif;
   font-size: 18px;
   font-size: 1.2rem;
-  color: #101010;
+  color: #367d1a;
   font-weight: 600;
   margin: 0 0 1em;
 }
@@ -22523,7 +22389,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-blog-single-section .comments-area .comments-meta h4 span {
   font-size: 16px;
   font-size: 1.06667rem;
-  color: #5C5C5C;
+  color: #367d1a;
   font-weight: normal;
   text-transform: none;
   display: inline-block;
@@ -22542,7 +22408,7 @@ a.ui-button:active, .ui-button:active,
   font-size: 14px;
   font-size: 0.93333rem;
   font-weight: 600;
-  color: #101010;
+  color: #367d1a;
   text-align: center;
   border-radius: 50px;
   display: inline-block;
@@ -23310,7 +23176,7 @@ a.ui-button:active, .ui-button:active,
   font-weight: 400;
   margin: 0;
   position: relative;
-  color: #101010;
+  color: #367d1a;
   display: inline-block;
   position: relative;
   margin-top: 10px;
@@ -23458,7 +23324,7 @@ a.ui-button:active, .ui-button:active,
 .wpo-demo-section .wpo-demo-grids h3 {
   font-size: 26px;
   margin: 0;
-  color: #101010;
+  color: #367d1a;
   font-family: "Jost", sans-serif;
 }
 
@@ -23748,7 +23614,7 @@ a.ui-button:active, .ui-button:active,
 
 .preview-banner .wpo-offer-wrap .wpo-offer-items .wpo-offer-item .wpo-offer-right .theme-btn, .preview-banner .wpo-offer-wrap .wpo-offer-items .wpo-offer-item .wpo-offer-right .view-cart-btn {
   background: #fff;
-  color: #101010;
+  color: #367d1a;
   text-transform: capitalize;
 }
 
@@ -23813,7 +23679,7 @@ a.ui-button:active, .ui-button:active,
   font-style: normal;
   font-weight: 400;
   margin: 10px 0;
-  color: #101010;
+  color: #367d1a;
   font-family: "Jost", sans-serif;
 }
 
@@ -24082,7 +23948,7 @@ a.ui-button:active, .ui-button:active,
 
 .color-switcher-wrap .color-switcher-item .color-toggle-btn i {
   font-size: 30px;
-  color: #101010;
+  color: #367d1a;
   -webkit-animation-name: rotate;
   animation-name: rotate;
   -webkit-animation-duration: 10s;
@@ -29437,4 +29303,42 @@ a.ui-button:active, .ui-button:active,
 .invite-11 {
   position: relative;
   top: 50px;
+}
+
+.section-bg-footer  {
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-bg-footer  img {
+  margin-top: -65px;
+  width: 100%;
+}
+
+.wpo-site-footer-s2 .section-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.wpo-site-footer-s2 .section-content strong {
+  font-size: 60px;
+}
+
+.wpo-site-footer-s2 .section-content h2 {
+  font-size: 40px;
+}
+
+
+.wpo-site-footer-s2 section {
+  position: relative;
+  display: flex;
+  height: 600px;
+  overflow: hidden;
+  color: #367d1a;
 }
