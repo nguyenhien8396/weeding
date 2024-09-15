@@ -5699,7 +5699,6 @@ a.ui-button:active, .ui-button:active,
       -ms-flex-direction: column;
           flex-direction: column;
   background: #fff;
-  margin-top: 30px;
 }
 
 @media (max-width: 1399px) {
@@ -11595,25 +11594,11 @@ a.ui-button:active, .ui-button:active,
   color: #fff;
 }
 
-@media (max-width: 991px) {
-  .wpo-video-section .video-btn .fi:before,
-  .wpo-video-section-s2 .video-btn .fi:before {
-    
-  }
-}
-
 /* 6.4 wpo-story-section-s3 */
 .wpo-story-section-s3,
 .wpo-story-section-s6 {
-  padding: 120px 100px 60px;
+  padding: 80px 30px 40px 30px;
   overflow: hidden;
-}
-
-@media (max-width: 1700px) {
-  .wpo-story-section-s3,
-  .wpo-story-section-s6 {
-    padding: 120px 30px;
-  }
 }
 
 @media (max-width: 991px) {
@@ -13913,7 +13898,7 @@ a.ui-button:active, .ui-button:active,
  =======================================*/
 /* 9.1 wpo-wedding-countdown-s2 */
 .wpo-wedding-countdown-s2 {
-  padding: 70px 0 90px 20px;
+  padding: 30px 20px 0px 20px;
 }
 
 /* 9.2 wpo-couple-section-s6 */
@@ -29341,4 +29326,15 @@ a.ui-button:active, .ui-button:active,
   height: 600px;
   overflow: hidden;
   color: #367d1a;
+}
+
+.video-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.video-btn .img-play {
+  width: 60% !important;
 }

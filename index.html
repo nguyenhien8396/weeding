@@ -165,25 +165,25 @@
                 <div id="clock2">
                   <div class="box">
                     <div>
-                      <div class="time">81</div>
+                      <div id="days" class="time">0</div>
                       <span>Days</span>
                     </div>
                   </div>
                   <div class="box">
                     <div>
-                      <div class="time">19</div>
+                      <div id="hours" class="time">0</div>
                       <span>Hours</span>
                     </div>
                   </div>
                   <div class="box">
                     <div>
-                      <div class="time">51</div>
+                      <div id="minutes" class="time">0</div>
                       <span>Mins</span>
                     </div>
                   </div>
                   <div class="box">
                     <div>
-                      <div class="time">49</div>
+                      <div id="seconds" class="time">0</div>
                       <span>Secs</span>
                     </div>
                   </div>
@@ -262,9 +262,13 @@
         <div class="container">
           <div class="video-wrap">
             <img src="./wedding/3.jpg" alt="" />
-            <a href="https://www.youtube.com/embed/XxGlVsNxibY" class="video-btn" data-type="iframe"
-              ><i class="fi flaticon-play"></i
-            ></a>
+            <a
+              href="https://www.youtube.com/embed/XxGlVsNxibY"
+              class="video-btn"
+              data-type="iframe"
+            >
+              <img src="./wedding/play.png" alt="" class="img-play" />
+            </a>
           </div>
         </div>
       </section>
@@ -361,8 +365,7 @@
                     id="gap-1077810411"
                     class="gap-element clearfix"
                     style="display: block; height: auto"
-                  >
-                  </div>
+                  ></div>
                   <div id="text-406188037" class="text text-stroke-white">
                     <h3 class="uppercase">
                       <span><strong>Nguyễn Hiền &amp; Ngọc Trâm </strong></span>
@@ -370,13 +373,10 @@
                   </div>
                   <div id="text-3238961417" class="text">
                     <h2>Thank you!</h2>
-                    <p>
-                      Sự hiện diện của bạn là niềm vui và vinh hạnh cho gia đình chúng mình!
-                    </p>
+                    <p>Sự hiện diện của bạn là niềm vui và vinh hạnh cho gia đình chúng mình!</p>
                   </div>
                   <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1728102642">
                     <div class="img-inner dark"></div>
-                    
                   </div>
                 </div>
               </div>
@@ -398,6 +398,43 @@
     <script src="./wedding/jquery-plugin-collection.js"></script>
     <script src="./wedding/moving-animation.js"></script>
     <script src="./wedding/tilt.jquery.min.js"></script>
+    <script>
+      function updateCountdown() {
+        // Set the date we're counting down to
+        const countDownDate = new Date("October 13, 2024 00:00:00").getTime();
+
+        // Get today's date and time
+        const now = new Date().getTime();
+
+        // Find the distance between now and the countdown date
+        const distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes, and seconds
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Update the HTML elements with the new values
+        document.getElementById("days").innerText = days;
+        document.getElementById("hours").innerText = hours;
+        document.getElementById("minutes").innerText = minutes;
+        document.getElementById("seconds").innerText = seconds;
+
+        // If the countdown is over, stop updating
+        if (distance < 0) {
+          clearInterval(interval);
+          document.getElementById("clock2").innerHTML = "EXPIRED";
+        }
+      }
+
+      // Update the countdown every 1 second
+      const interval = setInterval(updateCountdown, 1000);
+
+      // Initial call to set the correct time immediately
+      updateCountdown();
+    </script>
+
     <!-- Custom script for this template -->
   </body>
 </html>
