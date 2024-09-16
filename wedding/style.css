@@ -71,6 +71,9 @@ img {
 }
 
 @media (max-width: 991px) {
+  .static-hero-s5 .wpo-static-hero-inner .slide-title h2 {
+    right: 0px !important;
+  }
   .wpo-box-style {
     padding: 0 30px;
   }
@@ -2831,9 +2834,7 @@ a.ui-button:active, .ui-button:active,
 }
 
 @media screen and (min-width: 992px) {
-  .wpo-site-header #navbar {
-    /*** hover effect ***/
-  }
+  
   .wpo-site-header #navbar li {
     position: relative;
   }
@@ -5722,13 +5723,6 @@ a.ui-button:active, .ui-button:active,
     border-top: 1px solid #ebebeb;
     padding-bottom: 0;
     margin-top: 0px;
-  }
-}
-
-@media (max-width: 767px) {
-  .static-hero-s5 {
-    padding: 70px 0;
-    padding-bottom: 0;
   }
 }
 
@@ -29327,4 +29321,65 @@ a.ui-button:active, .ui-button:active,
 
 .video-btn .img-play {
   width: 60% !important;
+}
+
+@media (max-width: 767px) {
+  .static-hero-s5 {
+    padding: 0;
+  }
+  .static-hero-s5 .shape-frame {
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+  .static-hero-s5 .shape-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .save-the-date h2 {
+    font-size: 24px;
+  }
+  .static-hero-s5 .wpo-static-hero-inner .slide-title h2 {
+    font-size: 54px;
+  }
+  .static-hero-s5 .wpo-static-hero-inner {
+    padding-bottom: 10px;
+  }
+  .static-hero-s5 .wpo-static-hero-inner .shape {
+    margin-top: 0;
+  }
+  .wpo-wedding-countdown #clock > div,
+  .wpo-wedding-countdown #clock2 > div,
+  .wpo-wedding-countdown-s2 #clock > div,
+  .wpo-wedding-countdown-s2 #clock2 > div {
+    width: 80px;
+    height: 110px;
+  }
+  .wpo-wedding-countdown-s2 #clock2 {
+    margin-top: 30px;
+  }
+  .wpo-wedding-countdown-s2 {
+    padding: 0;
+  }
+  .wpo-couple-section-s6 {
+    padding: 0;
+  }
+
+  .wpo-story-section-s6 .wpo-story-wrap .wpo-story-item .wpo-story-content h2 {
+    font-size: 60px;
+  }
+  .wpo-site-footer-s2 section {
+    height: 400px;
+  }
+  .section-bg-footer img {
+    margin: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+  .text-thanks {
+    margin: 0 44px;
+    text-align: center;
+    line-height: 22px;
+  }
 }
