@@ -29382,4 +29382,7 @@ a.ui-button:active, .ui-button:active,
     text-align: center;
     line-height: 22px;
   }
+  .wpo-site-footer-s2 .section-content strong {
+    font-size: 52px;
+  }
 }
