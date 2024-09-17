@@ -57,6 +57,53 @@
       </div>
       <!-- end preloader -->
 
+      <div class="button-donate-container">
+        <button onclick="showDonate()" class="button-donate">
+          <span>GỬI QUÀ CƯỚI</span>
+          <svg
+            fill="#ffffff"
+            height="20px"
+            width="20px"
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 512 512"
+            xml:space="preserve"
+            stroke="#ffffff"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <g>
+                  <path
+                    d="M489.739,100.174H363.885c5.702-9.832,8.984-21.231,8.984-33.391C372.87,29.959,342.911,0,306.087,0 C286.155,0,268.247,8.789,256,22.68C243.753,8.789,225.845,0,205.913,0c-36.824,0-66.783,29.959-66.783,66.783 c0,12.16,3.282,23.56,8.984,33.391H22.261c-9.22,0-16.696,7.475-16.696,16.696v100.174c0,9.22,7.475,16.696,16.696,16.696h16.696 v261.565c0,9.22,7.475,16.696,16.696,16.696h166.957h66.783h166.957c9.22,0,16.696-7.475,16.696-16.696V233.739h16.696 c9.22,0,16.696-7.475,16.696-16.696V116.87C506.435,107.649,498.96,100.174,489.739,100.174z M205.913,478.609H72.348v-244.87 h133.565V478.609z M205.913,200.348H55.652H38.957v-66.783h166.956V200.348z M205.913,100.174 c-18.412,0-33.391-14.979-33.391-33.391c0-18.412,14.979-33.391,33.391-33.391c18.412,0,33.391,14.979,33.391,33.391v33.391 h-16.696H205.913z M272.696,478.609h-33.391v-244.87h33.391V478.609z M272.696,200.348h-33.391v-66.783H256h16.696V200.348z M272.696,100.174V66.783c0-18.412,14.979-33.391,33.391-33.391c18.412,0,33.391,14.979,33.391,33.391 c0,18.412-14.979,33.391-33.391,33.391h-16.696H272.696z M439.652,478.609H306.087v-244.87h133.565V478.609z M473.043,200.348 h-16.696H306.087v-66.783h166.956V200.348z"
+                  ></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+      </div>
+
+      <div class="popup-donate-container" onclick="hideDonate()">
+        <div class="popup-donate-content" onclick="event.stopPropagation();">
+          <p>
+            CẢM ƠN QUÝ KHÁCH VÌ ĐÃ TRỞ THÀNH MỘT PHẦN QUAN TRỌNG TRONG NGÀY ĐẶC
+            BIỆT CỦA CHÚNG TÔI.
+          </p>
+          <div>
+            <img src="./wedding/qr-code.jpg" alt="qr-code-wife" />
+          </div>
+          <h2>Thank you!</h2>
+        </div>
+      </div>
+
       <!-- start of hero -->
       <section class="static-hero-s5">
         <div class="hero-container">
@@ -118,7 +165,10 @@
                           animation-name: fadeInUp;
                         "
                       >
-                        <p>671 ấp Bình Phú, xã Bình Phước Xuân, huyện Chợ Mới, tỉnh An Giang</p>
+                        <p>
+                          671 ấp Bình Phú, xã Bình Phước Xuân, huyện Chợ Mới,
+                          tỉnh An Giang
+                        </p>
                       </div>
                       <span
                         class="shape wow fadeInUp"
@@ -154,7 +204,11 @@
           <div
             class="row wow fadeInUp"
             data-wow-duration="1600ms"
-            style="visibility: visible; animation-duration: 1600ms; animation-name: fadeInUp"
+            style="
+              visibility: visible;
+              animation-duration: 1600ms;
+              animation-name: fadeInUp;
+            "
           >
             <div class="col col-xs-12">
               <div class="clock-grids">
@@ -208,9 +262,10 @@
                 >
                   <h3>Nguyễn Hiền</h3>
                   <p>
-                    Xin chào! Anh là Hiền, một người ít nói nhưng cũng tình cảm lắm à nha. Hi vọng
-                    từ ngày này về sau tụi mình sẽ là cộng sự tốt của nhau! Cùng nhau làm tất tần
-                    tật mọi thứ trên đời nhé, yêu em!
+                    Xin chào! Anh là Hiền, một người ít nói nhưng cũng tình cảm
+                    lắm à nha. Hi vọng từ ngày này về sau tụi mình sẽ là cộng sự
+                    tốt của nhau! Cùng nhau làm tất tần tật mọi thứ trên đời
+                    nhé!
                   </p>
                 </div>
               </div>
@@ -219,7 +274,11 @@
                   <div
                     class="middle-couple-pic wow zoomIn"
                     data-wow-duration="1000ms"
-                    style="visibility: visible; animation-duration: 1000ms; animation-name: zoomIn"
+                    style="
+                      visibility: visible;
+                      animation-duration: 1000ms;
+                      animation-name: zoomIn;
+                    "
                   >
                     <div class="middle-couple-pic-inner">
                       <img src="./wedding/8.jpg" alt="" />
@@ -239,9 +298,10 @@
                 >
                   <h3>Ngọc Trâm</h3>
                   <p>
-                    Hello Hiền yêu, rất vui khi được làm cộng sự của anh. Mong là từ hôm nay anh sẽ
-                    luôn là cây cao bóng cả của riêng em. Mặc dù em có hơi "dữ dội tí" nhưng không
-                    có gì hết đâu nè, cứ bình tĩnh và vẫn luôn nhẹ nhàng với em như bây giờ nhé!
+                    Hello Hiền yêu, rất vui khi được làm cộng sự của anh. Mong
+                    là từ hôm nay anh sẽ luôn là cây cao bóng cả của riêng em.
+                    Mặc dù em có hơi "dữ dội tí" nhưng không có gì hết đâu nè,
+                    cứ bình tĩnh và vẫn luôn nhẹ nhàng với em như bây giờ nhé!
                   </p>
                 </div>
               </div>
@@ -258,7 +318,10 @@
         <div class="container">
           <div class="video-wrap">
             <img src="./wedding/3.jpg" alt="" />
-            <a href="https://www.youtube.com/embed/XxGlVsNxibY" class="popup-youtube video-btn">
+            <a
+              href="https://www.youtube.com/embed/XxGlVsNxibY"
+              class="popup-youtube video-btn"
+            >
               <img src="./wedding/play.png" alt="" class="img-play" />
             </a>
           </div>
@@ -278,7 +341,11 @@
                 <div
                   class="wpo-story-item wow fadeInUp"
                   data-wow-duration="1000ms"
-                  style="visibility: visible; animation-duration: 1000ms; animation-name: fadeInUp"
+                  style="
+                    visibility: visible;
+                    animation-duration: 1000ms;
+                    animation-name: fadeInUp;
+                  "
                 >
                   <div class="wpo-story-img">
                     <div class="wpo-story-img-inner">
@@ -289,8 +356,8 @@
                     <span>7 May, 2022</span>
                     <h2>Lần đầu gặp gỡ</h2>
                     <p>
-                      Chúng mình gặp nhau lần đầu tiên vào ngày 7 tháng 5 năm 2022 trong chuyến đi
-                      trekking tại Tà Năng - Phan Dũng.
+                      Chúng mình gặp nhau lần đầu tiên vào ngày 7 tháng 5 năm
+                      2022 trong chuyến đi trekking tại Tà Năng - Phan Dũng.
                     </p>
                   </div>
                 </div>
@@ -299,7 +366,11 @@
                 <div
                   class="wpo-story-item wow fadeInUp"
                   data-wow-duration="1200ms"
-                  style="visibility: visible; animation-duration: 1200ms; animation-name: fadeInUp"
+                  style="
+                    visibility: visible;
+                    animation-duration: 1200ms;
+                    animation-name: fadeInUp;
+                  "
                 >
                   <div class="wpo-story-img">
                     <div class="wpo-story-img-inner">
@@ -309,7 +380,10 @@
                   <div class="wpo-story-content">
                     <span>12 Sept, 2022</span>
                     <h2>Ngày kỷ niệm</h2>
-                    <p>Anh ngỏ lời sau 4 tháng quen biết và chúng mình chính thức quen nhau.</p>
+                    <p>
+                      Anh ngỏ lời sau 4 tháng quen biết và chúng mình chính thức
+                      quen nhau.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -317,7 +391,11 @@
                 <div
                   class="wpo-story-item wow fadeInUp"
                   data-wow-duration="1400ms"
-                  style="visibility: visible; animation-duration: 1400ms; animation-name: fadeInUp"
+                  style="
+                    visibility: visible;
+                    animation-duration: 1400ms;
+                    animation-name: fadeInUp;
+                  "
                 >
                   <div class="wpo-story-img">
                     <div class="wpo-story-img-inner">
@@ -328,8 +406,8 @@
                     <span>20 Sept, 2024</span>
                     <h2>Về một nhà</h2>
                     <p>
-                      Chúng mình sẽ chính thức trở thành bạn đời của nhau vào ngày 20 tháng 09 năm
-                      2024
+                      Chúng mình sẽ chính thức trở thành bạn đời của nhau vào
+                      ngày 20 tháng 09 năm 2024 20/9/2024
                     </p>
                   </div>
                 </div>
@@ -366,10 +444,14 @@
                   <div id="text-3238961417" class="text">
                     <h2>Thank you!</h2>
                     <p class="text-thanks">
-                      Sự hiện diện của bạn là niềm vui và vinh hạnh cho gia đình chúng mình!
+                      Sự hiện diện của bạn là niềm vui và vinh hạnh cho gia đình
+                      chúng mình!
                     </p>
                   </div>
-                  <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1728102642">
+                  <div
+                    class="img has-hover x md-x lg-x y md-y lg-y"
+                    id="image_1728102642"
+                  >
                     <div class="img-inner dark"></div>
                   </div>
                 </div>
@@ -406,7 +488,9 @@
 
         // Time calculations for days, hours, minutes, and seconds
         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
         const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
@@ -428,6 +512,22 @@
 
       // Initial call to set the correct time immediately
       updateCountdown();
+
+      function showDonate() {
+        const popupContainer = document.querySelector(".popup-donate-container");
+        popupContainer.classList.add("show");
+        setTimeout(() => {
+          popupContainer.style.opacity = "1";
+        }, 100);
+      }
+
+      function hideDonate() {
+        const popupContainer = document.querySelector(".popup-donate-container");
+        popupContainer.style.opacity = "0";
+        setTimeout(() => {
+          popupContainer.classList.remove("show");
+        }, 300);
+      }
     </script>
 
     <!-- Custom script for this template -->

@@ -107,6 +107,80 @@ img {
   overflow: hidden;
 }
 
+.button-donate{
+  border: none;
+  outline: none;
+  background-color: #930c00;
+  border-radius: 24px;
+  display: flex;
+  color: white;
+  gap: 8px;
+  padding: 8px 12px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.button-donate:hover{
+  background-color: #7c0b01;
+}
+
+.button-donate-container{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.popup-donate-container{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0b0b0b66;
+  z-index: 100000;
+  width: 100vw;
+  height: 100vh;
+  /* display: grid; */
+  place-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup-donate-content{
+  background-color: white;
+  width: 30vw;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+.popup-donate-content p{
+  margin-bottom: 0px;
+}
+
+.popup-donate-container.show {
+  display: grid;
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .popup-donate-content{
+    width: 40vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .popup-donate-content{
+    width: 50vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .popup-donate-content{
+    width: 85vw;
+  }
+}
+
 .wow {
   visibility: hidden;
 }
