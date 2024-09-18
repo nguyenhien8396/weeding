@@ -152,10 +152,22 @@ img {
   width: 30vw;
   padding: 1rem 2rem;
   border-radius: 12px;
+  min-width: 530px;
 }
 
 .popup-donate-content p{
   margin-bottom: 0px;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.popup-donate-content img{
+  max-width: 300px;
+}
+
+.popup-donate-content h2{
+  font-size: 80px;
 }
 
 .popup-donate-container.show {
@@ -166,6 +178,13 @@ img {
 @media (max-width: 991px) {
   .popup-donate-content{
     width: 40vw;
+    min-width: unset;
+  }
+  .popup-donate-content img{
+    max-width: 100%;
+  }
+  .popup-donate-content h2{
+    font-size: 60px;
   }
 }
 
